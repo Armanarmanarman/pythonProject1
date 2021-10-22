@@ -1,0 +1,7 @@
+certifi==2021.10.8
+charset-normalizer==2.0.7
+idna==3.3
+pycoingecko==2.2.0
+requests==2.26.0
+six @ file:///AppleInternal/BuildRoot/Library/Caches/com.apple.xbs/Sources/python3/python3-103/six-1.15.0-py2.py3-none-any.whl
+urllib3==1.26.7
