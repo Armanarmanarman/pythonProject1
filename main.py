@@ -1,7 +1,7 @@
 from pycoingecko import CoinGeckoAPI
-cg = CoinGeckoAPI()
-s = cg.get_coins_markets(vs_currency='usd')
-n = int(input())
-for i in range(n):
-    print(s[i]['market_cap'])
 
+CoinGeckoAPI = CoinGeckoAPI()
+s = CoinGeckoAPI.get_coins_markets(vs_currency='usd')
+filterRange = int(input())
+for i in range(filterRange):
+    print(s[i]['market_cap'])
