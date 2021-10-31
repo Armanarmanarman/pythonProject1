@@ -20,6 +20,6 @@ n = int(input())
 for i in range(n):
     print(s[i]['market_cap'])
 ```
-#Examples
+## Example
 Give integer n input in rane 1-100
 and it will print out top n cryptocurrencies market capitalisation
